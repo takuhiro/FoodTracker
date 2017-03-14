@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Uff-QH-xD1">
-                                <rect key="frame" x="16" y="40" width="343" height="476.5"/>
+                                <rect key="frame" x="16" y="40" width="343" height="477"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqH-eV-kjI">
                                         <rect key="frame" x="0.0" y="0.0" width="86.5" height="20.5"/>
@@ -78,6 +78,7 @@
                         <outlet property="mealNameLabel" destination="sqH-eV-kjI" id="qQW-L5-Ps1"/>
                         <outlet property="nameTextFIeld" destination="bTL-6F-Pte" id="JCJ-aj-Bq6"/>
                         <outlet property="photoImageView" destination="ybW-K3-NRL" id="hz3-ve-GCA"/>
+                        <outlet property="ratingControl" destination="3vs-QB-YpS" id="Zm2-GP-Qgm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
